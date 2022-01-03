@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ShopApp.Entities
 {
-    class ProductCategory
+    public class ProductCategory
     {
         public int Id { get; set; }
         public int CategoryId { get; set; }

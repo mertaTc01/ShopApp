@@ -9,14 +9,7 @@ using ShopApp.Entities;
 
 namespace ShopApp.DataAccess.Abstract
 {
-    public interface ICategoryDal
+    public interface ICategoryDal:IRepository<Category>
     {
-        Category GetById(int Id);
-        Category GatOne(Expression<Func<Category, bool>> filter);
-        IQueryable<Category> GetAll(Expression<Func<Category, bool>> filter);
-
-        void Create(Category entity);
-        void Update(Category entity);
-        void Delete(Category entity);
     }
 }

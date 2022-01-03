@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ShopApp.Entities
+namespace ShopApp.DataAccess.Concrete.EfCore
 {
-    public class Order
+    public class ShopContext:DbContext
     {
-        
+
     }
 }
