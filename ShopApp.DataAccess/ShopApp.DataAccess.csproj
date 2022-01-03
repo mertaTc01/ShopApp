@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Concrete\" />
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.15.0" />
+    <PackageReference Include="Microsoft.Build.Framework" Version="17.0.0" />
   </ItemGroup>
 
   <ItemGroup>
