@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
-namespace ShopApp.WebUI
+namespace ShopApp.Entities
 {
-    public class Category
+    class Category
     {
         public int Id { get; set; }
-        public string Name { get; set; }
+        public String Name { get; set; }
 
         public List<ProductCategory> ProductCategorys { get; set; }
     }
