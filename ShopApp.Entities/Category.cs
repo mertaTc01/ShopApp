@@ -5,13 +5,11 @@ using System.Threading.Tasks;
 
 namespace ShopApp.WebUI
 {
-    public class Product
+    public class Category
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string ImageUrl { get; set; }
-        public decimal Price { get; set; }
 
-        public int CategoryId { get; set; }
+        public List<ProductCategory> ProductCategorys { get; set; }
     }
 }
