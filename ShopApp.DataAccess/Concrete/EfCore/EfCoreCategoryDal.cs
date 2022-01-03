@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ShopApp.DataAccess.Concrete.EfCore
 {
-    public class EfCoreProductDal : EfCoreGenericRepostitory<Product,ShopContext>,IProductDal
+    public class EfCoreCategoryDal : ICategoryDal
     {
         
     }

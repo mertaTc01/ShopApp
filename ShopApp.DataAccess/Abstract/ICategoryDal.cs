@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 using DocumentFormat.OpenXml.Drawing.Diagrams;
 using ShopApp.Entities;
 
+
 namespace ShopApp.DataAccess.Abstract
 {
-    public interface ICategoryDal:IRepository<Category>
+    public interface ICategoryDal:IRepository<Entities.Category>
     {
     }
 }
