@@ -12,5 +12,7 @@ namespace ShopApp.Entities
         public String Name { get; set; }
 
         public List<ProductCategory> ProductCategorys { get; set; }
+
+        Console.WriteLine("dsada");
     }
 }
